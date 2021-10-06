@@ -16,6 +16,7 @@ data_csv = raw_data_files_path + 'OnlineNewsPopularity.csv'
 names_csv = raw_data_files_path + 'OnlineNewsPopularity.names'
 
 working_data_csv = path_data_interim + 'data.csv'
+data_csv_for_preprocessing = path_data_interim + 'data_csv_for_preprocessing.csv'
 features_list = path_data_interim + 'features_list.csv'
 
 def save_list_to_pkl(var, file):
