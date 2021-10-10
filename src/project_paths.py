@@ -5,7 +5,6 @@ import numpy as np
 import pickle
 
 root = os.environ["project_root"]
-print(root)
 path_notebooks = root + 'src/'
 path_data = root + 'data/'
 path_data_interim = path_data + 'interim/'
@@ -27,4 +26,6 @@ def load_list_from_pkl(file):
     with open(path_data_interim + file, 'rb') as f:
         mynewlist = pickle.load(f)
     return mynewlist
+
+figures_dir = root + 'figures/'
 
