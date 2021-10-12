@@ -4,7 +4,8 @@ import codecs
 import numpy as np
 import pickle
 
-root = os.environ["project_root"]
+# root = os.environ["project_root"]
+root = "/home/yash/Desktop/Courses/Data1030/Project/news_article_popularity/"
 path_notebooks = root + 'src/'
 path_data = root + 'data/'
 path_data_interim = path_data + 'interim/'
