@@ -3,6 +3,7 @@ import pandas as pd
 import codecs
 import numpy as np
 import pickle
+from numpy import save, load
 
 # root = os.environ["project_root"]
 root = "/home/yash/Desktop/Courses/Data1030/Project/news_article_popularity/"
@@ -30,3 +31,19 @@ def load_list_from_pkl(file):
 
 figures_dir = root + 'figures/'
 
+preprocessed_data_path_train = path_data_interim + 'pp_train.npy'
+preprocessed_data_path_val = path_data_interim + 'pp_val.npy'
+preprocessed_data_path_test = path_data_interim + 'pp_test.npy'
+
+preprocessed_data_y_train = path_data_interim + 'pp_train_y.npy'
+preprocessed_data_y_val = path_data_interim + 'pp_val_y.npy'
+preprocessed_data_y_test = path_data_interim + 'pp_test_y.npy'
+
+MODEL_EVALUATIONS_PICKLE = 'model_evals.pkl'
+
+def save_preprocessed_data(data, path):
+    save(path, data)
+
+def load_preprocessed_data(path):
+    data = load(path)
+    return data
