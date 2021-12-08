@@ -35,11 +35,11 @@ These observations are in line with general understanding of optimizing digital 
 Python version: `3.9.7`
 
 Primary package versions:
-`numpy==1.21.1`
-`pandas==1.3.1`
-`scikit-learn==0.24.2`
-`shap==0.39.0`
-`matplotlib==3.4.2`
-`xgboost==1.3.1`
+`numpy==1.21.1`  
+`pandas==1.3.1`  
+`scikit-learn==0.24.2`  
+`shap==0.39.0`  
+`matplotlib==3.4.2`  
+`xgboost==1.3.1`  
 
 For an exhaustive list of dependencies, see the `environment.yml` file. 
