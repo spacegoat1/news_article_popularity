@@ -3,10 +3,10 @@ Project for the DATA1030 class at Brown University
 Yash Mehta, Data Science Initiative
 Supervised by Dr. Andras Zsom
 
-## Objective
+## Goal
 The goal of this project is to use various features of online news to predict its popularity (measured by the number of shares).
 
-## Data Description
+## Data
 Dataset from UCI Machine Learning Repository: https://archive.ics.uci.edu/ml/datasets/online+news+popularity.  
 The dataset contains 59 features and the number of shares as target for 39644 pieces of news collected from Mashable.
 
@@ -20,7 +20,7 @@ The problem is modeled as a classification problem with a set threshold above wh
 
 F-beta with beta = 1.5 was chosen as the evaluation metric. 
 
-## Conclusion
+## Findings
 • XGBoost was found to perform the best on the dataset with an F-beta values of 66.3%. 
 • After model interpretation, the following factors were found to be most important to optimize for popularity:  
 1. Keywords.  
