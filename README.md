@@ -34,7 +34,7 @@ These observations are in line with general understanding of optimizing digital 
 ## Environment
 Python version: `3.9.7`
 
-Primary package versions:
+Primary package versions:  
 `numpy==1.21.1`  
 `pandas==1.3.1`  
 `scikit-learn==0.24.2`  
