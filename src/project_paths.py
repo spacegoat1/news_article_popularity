@@ -11,6 +11,7 @@ path_notebooks = root + 'src/'
 path_data = root + 'data/'
 path_data_interim = path_data + 'interim/'
 path_data_processed = path_data + 'processed/'
+path_results = root + 'results/'
 
 raw_data_files_path = path_data + 'raw/OnlineNewsPopularity/'
 data_csv = raw_data_files_path + 'OnlineNewsPopularity.csv'
@@ -47,3 +48,13 @@ def save_preprocessed_data(data, path):
 def load_preprocessed_data(path):
     data = load(path)
     return data
+
+def save_to_results(var, file):
+    with open(path_results + file, 'wb') as f:
+        pickle.dump(var, f)
+
+def load_from_results(file):
+    with open(path_results + file, 'rb') as f:
+        mynewlist = pickle.load(f)
+    return mynewlist
+
