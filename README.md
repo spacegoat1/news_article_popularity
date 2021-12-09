@@ -1,7 +1,7 @@
-# Prediction of Online News Popularity
-Project for the DATA1030 class at Brown University
-Yash Mehta, Data Science Initiative
-Supervised by Dr. Andras Zsom
+# Prediction of Online News Popularity  
+Project for the DATA1030 class at Brown University  
+Yash Mehta, Data Science Initiative  
+Supervised by Dr. Andras Zsom  
 
 ## Goal
 The goal of this project is to use various features of online news to predict its popularity (measured by the number of shares).
